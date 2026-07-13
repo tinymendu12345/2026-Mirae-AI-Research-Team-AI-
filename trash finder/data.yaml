@@ -5,3 +5,7 @@ val: val/images
 
 nc: 4
 names: ['plastic', 'glass', 'paper', 'can']
+
+#pip install ultralytics
+#conda activate yolov8
+#python train\_trash.py

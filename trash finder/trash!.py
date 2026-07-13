@@ -6,7 +6,8 @@ model = YOLO(
 r"C:\Users\AIcontents\Desktop\2026-Mirae-AI-Research-Team-AI\trash finder\runs\classify\train-3\weights\best.pt"
 )
 
-capture = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+c
+apture = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
