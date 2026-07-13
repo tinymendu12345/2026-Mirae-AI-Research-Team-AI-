@@ -3,7 +3,7 @@ import cv2
 import time
 
 model = YOLO(
-    r"C:\Users\AIcontents\Desktop\2026-Mirae-AI-Research-Team-AI\trash finder\runs\classify\train-2\weights\best.pt"
+r"C:\Users\AIcontents\Desktop\2026-Mirae-AI-Research-Team-AI\trash finder\runs\classify\train-3\weights\best.pt"
 )
 
 capture = cv2.VideoCapture(0, cv2.CAP_DSHOW)
