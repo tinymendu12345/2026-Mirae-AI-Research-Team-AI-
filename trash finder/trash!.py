@@ -3,7 +3,8 @@ import cv2
 import time
 
 model = YOLO(
-r"C:\Users\AIcontents\Desktop\2026-Mirae-AI-Research-Team-AI\trash finder\runs\classify\train-3\weights\best.pt"
+r"C:\Users\AIcontents\Desktop\2026-Mirae-AI-Research-Team-AI\trash finder\runs\classify\train
+\weights\best.pt"
 )
 
 capture = cv2.VideoCapture(0, cv2.CAP_DSHOW)
@@ -87,7 +88,7 @@ def draw_ui(frame, label, confidence, fps):
 
     cv2.putText(
         frame,
-        "님 쓰레기 같음;;;;;;;;;",
+        "Eye Can Classify Plastic",
         (20, 35),
         cv2.FONT_HERSHEY_SIMPLEX,
         0.7,

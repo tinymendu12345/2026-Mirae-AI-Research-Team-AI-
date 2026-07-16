@@ -13,7 +13,7 @@ cache: false
 device: cpu
 workers: 2
 project: null
-name: train
+name: train-3
 exist_ok: false
 pretrained: true
 cls_remap: true
@@ -109,4 +109,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: tracktrack.yaml
-save_dir: C:\Users\AIcontents\Desktop\2026-Mirae-AI-Research-Team-AI\trash finder\runs\classify\train
+save_dir: C:\Users\AIcontents\Desktop\2026-Mirae-AI-Research-Team-AI\no_cam\runs\classify\train-3

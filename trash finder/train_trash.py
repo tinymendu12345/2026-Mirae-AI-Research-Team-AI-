@@ -9,6 +9,6 @@ if __name__ == '__main__':
         epochs=30,
         imgsz=640,
         batch=4,
-        device="cpu", #gpu가 없으면 "cpu" gpu있으면 0
+        device="0", #gpu가 없으면 "cpu" gpu있으면 0
 	workers=2
     )
